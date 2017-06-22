@@ -1,0 +1,24 @@
+<div id="img-uploader">
+    <canvas class="avatar" id="myCanvas" width="150" height="150"></canvas>
+    <div style="position: relative;left:156px;top:-1px">
+        <div id="delete-avatar" ng-click="deleteAvatar()" class="delete-avatar">
+            <img src="./image/delete.png">
+        </div>
+        <div class="edit-avatar">
+            <img src="./image/edit.png">
+
+            <div id="container" class="container">
+                <input class="file-picker" id="file" type="file"/>
+            </div>
+        </div>
+        <div id="upload-avatar" ng-show="fileSelected" ng-click="uploadAvatar()" class="upload-avatar">
+            <img src="./image/upload.png">
+        </div>
+        <div id="zoom-out" ng-show="fileSelected" ng-click="zoomOut()" class="zoom-out">
+            <img src="./image/zoom_out.png">
+        </div>
+        <div id="zoom-in" ng-show="fileSelected" ng-click="zoomIn()" class="zoom-in">
+            <img src="./image/zoom_in.png">
+        </div>
+    </div>
+</div>
