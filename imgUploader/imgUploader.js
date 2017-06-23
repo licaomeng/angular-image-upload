@@ -51,7 +51,7 @@ angular.module("appModule")
                     var file = document.getElementById('file').files[0];
                     if (file) {
                         var canvas = document.getElementById('myCanvas');
-                        $scope.onUpload({image: canvas.toDataURL('png'), isDelete: false});
+                        $scope.onUpload({image: canvas.toDataURL('png'), isDelete: false, isHasAvatar: $scope.isHasAvatar});
                     } else {
                         alert("Please add avatar first!");
                     }

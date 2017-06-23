@@ -12,15 +12,10 @@
     <script src="./index.js"></script>
     <script src="./imgZoomCanvas.js"></script>
     <script src="./imgUploader/imgUploader.js"></script>
-    <style>
-        img-uploader{
-            width: 100%;
-            height: 400px;
-        }
-    </style>
+    <script src="./main.js"></script>
 </head>
 
 <body>
-    <img-uploader on-upload="upload(image, isDelete, isHasAvatar)" image="image" is-editable="isEditable"></img-uploader>
+<div ui-view="main" id="main"></div>
 </body>
 </html>
