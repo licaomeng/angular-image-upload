@@ -5,6 +5,19 @@ Demo
 =======
 ![](https://github.com/licaomeng/angular-image-upload/blob/master/Angular-img-uploader.gif)
 
+How to demo
+=======
+STEP 1: Install npm on your device first;
+
+STEP 2: Command `npm start` on root path;
+
+STEP 3: Access localhost:9000 with your browser, then you can see the same scene as demo.
+
+Usage
+=======
+Add `imgZoomCanvas.js` which realize critical function such as zooming and dragging to your module.
+
+
 License
 =======
 
