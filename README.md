@@ -11,11 +11,19 @@ STEP 1: Install npm on your device first;
 
 STEP 2: Command `npm start` on root path;
 
-STEP 3: Access localhost:9000 with your browser, then you can see the same scene as demo.
+STEP 3: Access `localhost:9000` with your browser, then you can see the same scene as demo.
 
 Usage
 =======
-Add `imgZoomCanvas.js` which realize critical function such as zooming and dragging to your module.
+STEP 1: Add `imgZoomCanvas.js` which realize critical function such as zooming and dragging to your module.
+
+STEP 2: You can copy the whole folder `/imgUploader` to your project, imgUploader is a directive which realize angular-image-upload business logic including add, delete, zoom, upload image file. you can also customize them by yourself.
+
+STEP 3: Add this directive to the page, like below:
+
+```
+<img-uploader on-upload="upload(image, isDelete, isHasAvatar)" image="image" is-editable="isEditable"></img-uploader>
+```
 
 
 License
