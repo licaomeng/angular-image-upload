@@ -1,6 +1,10 @@
 # angular-image-upload
 An angular image uploader directive for cropping and upload base64 by zooming in, zooming out and draging the image.
 
+Blog
+=======
+http://blog.csdn.net/licaomengrice/article/details/77509491
+
 Demo
 =======
 ![](https://github.com/licaomeng/angular-image-upload/blob/master/Angular-img-uploader.gif)
